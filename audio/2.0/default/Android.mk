@@ -76,8 +76,7 @@ LOCAL_SHARED_LIBRARIES := \
     android.hardware.audio.effect@2.0 \
     android.hardware.soundtrigger@2.0 \
     android.hardware.broadcastradio@1.0 \
-    android.hardware.broadcastradio@1.1 \
-    com.qualcomm.qti.bluetooth_audio@1.0
+    android.hardware.broadcastradio@1.1
 
 ifeq ($(strip $(AUDIOSERVER_MULTILIB)),)
 LOCAL_MULTILIB := 32
